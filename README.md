@@ -69,7 +69,7 @@ conspecter/
 ## 🚀 Быстрый старт
 
 ### Установка
-git clone https://github.com/your-username/conspecter.git
+git clone [https://github.com/your-username](https://github.com/sstarostin1/Conspekter).git
 cd conspecter
 pip install -r requirements.txt
 
