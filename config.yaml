@@ -1,0 +1,22 @@
+# Конфигурация Conspekter
+
+stt:
+  model_name: whisper-base
+  model_path: models/whisper-base-int8
+  device: AUTO
+  quantization: int8
+  cache_dir: ./cache
+  language: ru
+  task: transcribe
+
+audio:
+  sample_rate: 16000
+  max_duration: 300
+  normalize: true
+
+devices:
+  priority:
+    - NPU
+    - CPU
+    - GPU
+  fallback_enabled: true
